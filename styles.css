@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    background-color: rgba(122,191,191,0.5);
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 40px;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+
+h2 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 25px;
+}
+
+nav {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    background-color: #ffffff;
+}
+
+nav a {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #eb5428;
+}
+
+nav span {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 12px;
+    position: relative;
+    top: 2.5em;
+    left: 1em;
+}
+
+nav li:first-of-type {
+    display: none;
+}
+
+nav li:last-child {
+    left: 50px;
+    top: 30px;
+}
+
+#nav-icons img {
+    margin: 0px 15px;
+    position: relative;
+    bottom: 3em;
+}
+
+menu {
+    list-style: none;
+}
+
+menu li {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+menu a {
+    text-decoration: none;
+    color: #eb5428;
+}
+
+#social li {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#social a {
+    text-decoration: none;
+    color: #eb5428;
+}
+
+#details span {
+    font-weight: bold;
+}
+
+#ingredients li {
+    margin-bottom: 0.5em;
+}
+
+ol li {
+    margin-bottom: 1em;
+}
+
+footer {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+footer h2, footer h3 {
+    display: none;
+}
+
+p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+}
+
+dt {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    top: 2em;
+}
+
+dd {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    position: relative;
+    right: 2.5em;
+    bottom: 0.5em;
+}
+
+#side-dishes {
+    background-color: #7abfbf;
+}
+
+#side-dishes svg {
+    position: relative;
+    left: 4em;
+    bottom: 1.3em;
+}
+
+li {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+}
+
+input {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.icon-tabler-tools-kitchen {
+    background-color: #eb5428;
+}
+
+#credits {
+    position: relative;
+    bottom: 10px;
+    right: 90px;
+}
+
+#copyright {
+    position: relative;
+    top: 40px;
+    left: 215px;
+}
+
+#author {
+    position: relative;
+    bottom: 60px;
+    left: 215px;
+}
+
+/*SEARCH*/
+#search input {
+    height: 2.75em;
+    width: 20em;
+    border-color: #eb5428;
+}
+
+#search button {
+    position: relative;
+    left: -5px;
+    top: 13px;
+    border: none;
+    background-color: #eb5428;
+}
+
+/*SCREEN-SIZES*/
+@media screen and (min-width: 414px) {
+    body {
+        width: 414px;
+        margin: 0px 50px;
+    }
+
+    /*NAV*/
+    nav {
+        width: 414px;
+    }
+
+    /*IMAGES*/
+    header img {
+        width: 75%;
+        height: auto;
+    }
+    
+    footer img {
+        width: 25%;
+        height: auto;
+    }
+    
+    #nav-icons img {
+        width: 15%;
+        height: auto;
+    }
+    
+    #side-dishes img {
+        width: 25%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+        margin: 0px 75px;
+    }
+
+    /*NAV*/
+    nav {
+        width: 768px;
+    }
+
+    /*IMAGES*/
+    header img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer img {
+        width: 15%;
+        height: auto;
+    }
+
+    #nav-icons img {
+        width: 7%;
+        height: auto;
+    }
+
+    #side-dishes img {
+        width: 10%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        width: 1280px;
+        margin: 0px 100px;
+    }
+
+    /*NAV*/
+    nav {
+        width: 1280px;
+    }
+
+    /*IMAGES*/
+    header img {
+        width: 40%;
+        height: auto;
+    }
+
+    footer img {
+        width: 10%;
+        height: auto;
+    }
+
+    #nav-icons img {
+        width: 5%;
+        height: auto;
+    }
+
+    #side-dishes img {
+        width: 15%;
+        height: auto;
+    }
+}
